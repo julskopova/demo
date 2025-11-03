@@ -40,6 +40,8 @@ V prohlížeči otevři:
 Vrátí textový pozdrav a seznam uživatelů z databáze.
 
 
+
+
 **Endpoint /notes**
 
 V prohlížeči nebo v terminálu otevři:
@@ -72,7 +74,7 @@ Odstranění kontejneru:
     bash
     docker rm pg-demo
 
-## 7. Struktura projektu
+## 6. Struktura projektu
 
 src/
  ├── main/kotlin/com/example/demo/
