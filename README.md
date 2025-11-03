@@ -28,7 +28,7 @@ Ve složce projektu (kde je pom.xml) spusť:
 
 Aplikace se spustí na adrese *http://localhost:8080*
 
-## Jak aplikaci používat
+## 3. Jak aplikaci používat
 
 **Endpoint /hello**
 
@@ -49,7 +49,7 @@ V prohlížeči nebo v terminálu otevři:
 
 Vrátí seznam poznámek (JSON)
 
-## 5. Spuštění testů
+## 4. Spuštění testů
 
 Spuštění všech testů:
 
@@ -58,9 +58,9 @@ Spuštění všech testů:
 
 Spuštění pouze jednoho testu:
 
-    ./mvnw -Dtest=NotesApiKotest test
+    ./mvnw -Dtest=DemoApplicationTests test
 
-## 6. Zastavení a vyčištění prostředí
+## 5. Zastavení a vyčištění prostředí
 
 Zastavení databáze:
 
@@ -85,4 +85,4 @@ src/
  │       ├── V1__create_users.sql
  │       └── V2__create_notes.sql
  └── test/kotlin/com/example/demo/
-     └── NotesApiKotest.kt
+     └── DemoApplicationTests.kt
